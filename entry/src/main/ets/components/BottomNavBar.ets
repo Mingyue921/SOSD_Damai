@@ -22,11 +22,11 @@ export struct BottomNavBar {
 
   // 底部导航数据
   private bottomItems: BottomNavItem[] = [
-    { id: 1, name: '首页', image: 'app.media.mainpage', route: 'MainPage' },
-    { id: 2, name: '影院·场馆', image: 'app.media.position', route: '' },
+    { id: 1, name: '首页', image: 'app.media.my', route: 'MainPage' },
+    { id: 2, name: '影院·场馆', image: 'app.media.discover', route: '' },
     { id: 3, name: '大麦VIP', image: 'app.media.VIP', route: '' },
-    { id: 4, name: '发现', image: 'app.media.discover', route: '' },
-    { id: 5, name: '我的', image: 'app.media.my', route: 'MinePage' }
+    { id: 4, name: '发现', image: 'app.media.position', route: '' },
+    { id: 5, name: '我的', image: 'app.media.mainpage', route: 'MinePage' }
   ]
 
   build() {

@@ -167,7 +167,6 @@ struct MainPage {
     }
   ]
 
-
   @State CardsItems:Items[] = [
     { title:'抢票播报站',image:'app.media.jolin',heading:'Jolin蔡依林PLEASURE巡回演唱会2026',buttonText:'8.7万人热抢',buttonImage:'app.media.qiang',cardType: 'broadcast'},
     {title:'今日秒杀',image:'app.media.card2',heading:'【肆笑喜剧】精品秀|轻松解压|情侣约会|学生优惠|@东街口大洋百货店',buttonText:'￥29',buttonImage:'app.media.miao',cardType: 'seckill'}
@@ -299,8 +298,6 @@ struct MainPage {
     .width('48%')
     .height(120)
   }
-
-  @Builder
 
   @Builder
   MenulconBuilder(item: MenuItem) {
